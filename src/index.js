@@ -17,7 +17,7 @@ const explorationButton = document.querySelector('.bg-exploration')
 const page = document.querySelector('body')
 
 homeButton.addEventListener('click', () => {
-  //window.location = '/'
+  window.location = '/'
   homeButton.classList.add('focus')
   universeButton.classList.remove('focus')
   explorationButton.classList.remove('focus')
@@ -26,7 +26,7 @@ homeButton.addEventListener('click', () => {
 })
 
 universeButton.addEventListener('click', () => {
-  //window.location = '/universe'
+  window.location = '/universe'
   universeButton.classList.add('focus')
   homeButton.classList.remove('focus')
   explorationButton.classList.remove('focus')
@@ -36,7 +36,7 @@ universeButton.addEventListener('click', () => {
 
 explorationButton.addEventListener('click', () => {
 
-  //window.location = '/exploration'
+  window.location = '/exploration'
   explorationButton.classList.add('focus')
   homeButton.classList.remove('focus')
   universeButton.classList.remove('focus')
