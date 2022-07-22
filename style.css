@@ -17,7 +17,7 @@
 body {
   font-family: var(--ff-primary);
 
-  background-image: url("./images/home.png");
+  background-image: url(images/home.png);
   background-size: cover;
   background-position: center;
 
@@ -28,11 +28,11 @@ body {
 }
 
 body.bg-universe {
-  background-image: url("./images/universo.png");
+  background-image: url(images/universo.png);
 }
 
 body.bg-exploration {
-  background-image: url("./images/exploracao.png");
+  background-image: url(images/exploracao.png);
 }
 
 nav {
