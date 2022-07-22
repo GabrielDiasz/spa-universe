@@ -1,4 +1,4 @@
-export default class Router {
+export class Router {
   routes = {}
 
   add(routerName, page) {
