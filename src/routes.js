@@ -15,7 +15,7 @@ export class Router {
   }
 
   handle() {
-    const { pathname } = window.location
+    const { hash } = window.location
     const route = this.routes[hash] || this.routes[404]
 
     fetch(route)
